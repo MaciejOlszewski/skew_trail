@@ -1,0 +1,257 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,700,700italic,800,800italic,500,500italic,300,300italic,100italic,100);
+/* line 1, src/style/normalize.scss */
+progress, sub, sup {
+  vertical-align: baseline; }
+
+/* line 1, src/style/normalize.scss */
+button, hr, input {
+  overflow: visible; }
+
+/* line 1, src/style/normalize.scss */
+html {
+  font-family: sans-serif;
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 1, src/style/normalize.scss */
+body {
+  margin: 0; }
+
+/* line 1, src/style/normalize.scss */
+figcaption, menu, article, aside, details, figure, footer, header, main, nav, section, summary {
+  display: block; }
+
+/* line 1, src/style/normalize.scss */
+audio, canvas, progress, video {
+  display: inline-block; }
+
+/* line 1, src/style/normalize.scss */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 1, src/style/normalize.scss */
+[hidden], template {
+  display: none; }
+
+/* line 1, src/style/normalize.scss */
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+/* line 1, src/style/normalize.scss */
+a:active, a:hover {
+  outline-width: 0; }
+
+/* line 1, src/style/normalize.scss */
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted; }
+
+/* line 1, src/style/normalize.scss */
+b, strong {
+  font-weight: bolder; }
+
+/* line 1, src/style/normalize.scss */
+dfn {
+  font-style: italic; }
+
+/* line 1, src/style/normalize.scss */
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+/* line 1, src/style/normalize.scss */
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+/* line 1, src/style/normalize.scss */
+small {
+  font-size: 80%; }
+
+/* line 1, src/style/normalize.scss */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
+
+/* line 1, src/style/normalize.scss */
+sub {
+  bottom: -.25em; }
+
+/* line 1, src/style/normalize.scss */
+sup {
+  top: -.5em; }
+
+/* line 1, src/style/normalize.scss */
+img {
+  border-style: none; }
+
+/* line 1, src/style/normalize.scss */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 1, src/style/normalize.scss */
+code, kbd, pre, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+/* line 1, src/style/normalize.scss */
+figure {
+  margin: 1em 40px; }
+
+/* line 1, src/style/normalize.scss */
+hr {
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 1, src/style/normalize.scss */
+button, input, optgroup, select, textarea {
+  font: inherit;
+  margin: 0; }
+
+/* line 1, src/style/normalize.scss */
+optgroup {
+  font-weight: 700; }
+
+/* line 1, src/style/normalize.scss */
+button, select {
+  text-transform: none; }
+
+/* line 1, src/style/normalize.scss */
+[type=submit], [type=reset], button, html [type=button] {
+  -webkit-appearance: button; }
+
+/* line 1, src/style/normalize.scss */
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+/* line 1, src/style/normalize.scss */
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: ButtonText dotted 1px; }
+
+/* line 1, src/style/normalize.scss */
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em; }
+
+/* line 1, src/style/normalize.scss */
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
+
+/* line 1, src/style/normalize.scss */
+textarea {
+  overflow: auto; }
+
+/* line 1, src/style/normalize.scss */
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+/* line 1, src/style/normalize.scss */
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+/* line 1, src/style/normalize.scss */
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px; }
+
+/* line 1, src/style/normalize.scss */
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+/* line 1, src/style/normalize.scss */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: .54; }
+
+/* line 1, src/style/normalize.scss */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+/* line 5, src/style/style.scss */
+body {
+  background-color: #333;
+  color: #FFF;
+  font-family: 'Alegreya Sans', sans-serif; }
+
+/* line 10, src/style/style.scss */
+h1 {
+  font-size: 4em;
+  font-weight: 800; }
+
+/* line 14, src/style/style.scss */
+p {
+  font-size: 2em;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 300; }
+
+/* line 19, src/style/style.scss */
+.section {
+  padding: 150px 0;
+  -webkit-transform: skew(0deg, -3deg);
+      -ms-transform: skew(0deg, -3deg);
+          transform: skew(0deg, -3deg); }
+  /* line 23, src/style/style.scss */
+  .section .content {
+    margin-left: 40px;
+    margin-right: 40px;
+    -webkit-transform: skew(0deg, 3deg);
+        -ms-transform: skew(0deg, 3deg);
+            transform: skew(0deg, 3deg);
+    text-align: center; }
+
+/* line 29, src/style/style.scss */
+.section-1 {
+  background-color: #007bac;
+  -webkit-transition: background-color 0.3s ease-in-out;
+          transition: background-color 0.3s ease-in-out; }
+  /* line 32, src/style/style.scss */
+  .section-1:hover {
+    background-color: #009FDF; }
+
+/* line 35, src/style/style.scss */
+.section-2 {
+  background-color: #a40c61;
+  -webkit-transition: background-color 0.3s ease-in-out;
+          transition: background-color 0.3s ease-in-out; }
+  /* line 38, src/style/style.scss */
+  .section-2:hover {
+    background-color: #D40F7D; }
+
+/* line 41, src/style/style.scss */
+.section-3 {
+  background-color: #c7b300;
+  -webkit-transition: background-color 0.3s ease-in-out;
+          transition: background-color 0.3s ease-in-out; }
+  /* line 44, src/style/style.scss */
+  .section-3:hover {
+    background-color: #FAE100; }
+
+/* line 47, src/style/style.scss */
+.navbar a {
+  display: block;
+  text-align: left;
+  margin-bottom: -15px;
+  margin-top: 25px; }
+
+/* line 54, src/style/style.scss */
+.navbar {
+  margin-top: 0px;
+  padding: 10px 0px 20px 0px; }
+
+/* line 58, src/style/style.scss */
+.bars {
+  width: 50px;
+  height: 50px; }
